@@ -1,0 +1,29 @@
+{
+    "name": "Home",
+    "short_name": "Home",
+    "start_url": "/",
+    "display": "standalone",
+    "description": "blah blah blah",
+    "lang": "en",
+    "dir": "auto",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "./public/static/assets/manifest/512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "./public/static/assets/manifest/screenshot.png",
+            "sizes": "1920x1080",
+            "type": "image/png",
+            "description": "A screenshot of the home page"
+        }
+    ],
+    "prefer_related_applications": "false"
+}
