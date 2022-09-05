@@ -34,13 +34,9 @@ html {
 }
 
 body {
-    background-image: url(../public/static/assets/wallpaper/img28.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
+    background-size: cover!important; 
     overflow: hidden;
-    width: 1000%;
+    width: 100%;
     height: 100%;
 }
 

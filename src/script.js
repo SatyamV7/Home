@@ -1,7 +1,6 @@
-
 //Date & Time
 let noClock = false;
-let _12hour = true;
+let _12hour = false;
 let noDate = false;
 let ddmmyy = true;
 const dayArr = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
