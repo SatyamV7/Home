@@ -8,10 +8,12 @@ let background = "#0e0e0e";
 window.onresize = () => {
     clockPos();
 }
+
 function clockPos() {
     const clockEl = document.querySelector('.date-time');
     clockEl.style.left = window.innerWidth / 2 - clockEl.clientWidth / 2 + "px";
 }
+
 function UpdateClock() {
     let timeEl = document.getElementById('clock');
     let dateEl = document.getElementById('date');
@@ -41,6 +43,7 @@ function UpdateClock() {
 }
 UpdateClock();
 clockPos();
+
 function Listener(name, val) {
     switch (name) {
         case "timeToggle":
