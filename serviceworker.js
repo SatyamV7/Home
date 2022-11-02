@@ -24,10 +24,9 @@ const offlineFallbackPage = "/Fallback/fallback.html";
 const PRECACHE_URLS = [
     '/',
     'index.html',
+    '/favicon.ico',
     '/src/script.js',
     '/src/style.css',
-    '/public/static/assets/favicon.ico',
-    '/public/static/assets/wallpaper/img28.jpg',
     '/public/static/assets/fonts/Lexend/Lexend-Light.ttf',
     '/public/static/assets/fonts/Segoe UI/Segoe UI-Regular.ttf',
     '/public/static/assets/fonts/Dancing/DancingScript-Regular.otf',

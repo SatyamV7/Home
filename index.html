@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="/src/style.css">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="shortcut icon" href="./public/static/assets/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#FFFFFF">
@@ -36,12 +36,16 @@
                             </div>
                         </div>
                         <div class="a4bIc">
-                            <div class="YacQv"></div><input class="gLFyf" maxlength="2048" name="q" type="text" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" placeholder="Type to search Google" autofocus="" role="combobox"
+                            <div class="YacQv"></div><input class="gLFyf" maxlength="2048" name="q" type="text"
+                                aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off"
+                                autocorrect="off" placeholder="Type to search Google" autofocus="" role="combobox"
                                 spellcheck="false" title="Search" value="" aria-label="Search">
                         </div>
                         <div class="dRYYxd">
 
-                            <div class="XDyW0e" aria-label="Search by voice" role="button" tabindex="0"><svg class="goxjub" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <div class="XDyW0e" aria-label="Search by voice" role="button" tabindex="0"><svg
+                                    class="goxjub" focusable="false" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <path fill="#4285f4"
                                         d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z">
                                     </path>
@@ -61,15 +65,14 @@
         </form>
     </div>
 </body>
-<script src="./src/script.js"></script>
-<script src="./public/static/assets/wallpaper/Wallpaper.750b0a75.js"></script>
+<script src="/src/script.js"></script>
 <script>
     if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-            navigator.serviceWorker.register('serviceworker.js').then(function(registration) {
+        window.addEventListener('load', function () {
+            navigator.serviceWorker.register('serviceworker.js').then(function (registration) {
                 // Registration was successful
                 console.log('ServiceWorker registration successful with scope: ', registration.scope);
-            }, function(err) {
+            }, function (err) {
                 // registration failed :(
                 console.log('ServiceWorker registration failed: ', err);
             });
