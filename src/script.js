@@ -5,9 +5,9 @@ let noDate = false;
 let ddmmyy = true;
 const dayArr = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 let background = "#0e0e0e";
-window.onresize = () => {
-    clockPos();
-}
+//window.onresize = () => {
+//    clockPos();
+//}
 
 function clockPos() {
     const clockEl = document.querySelector('.date-time');
@@ -42,7 +42,7 @@ function UpdateClock() {
     setTimeout(UpdateClock, 1);
 }
 UpdateClock();
-clockPos();
+//clockPos();
 
 function Listener(name, val) {
     switch (name) {
