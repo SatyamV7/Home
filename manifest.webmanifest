@@ -9,6 +9,9 @@
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
     "orientation": "any",
+    "related_applications": [],
+    "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
+    "prefer_related_applications": false,
     "icons": [
         {
             "src": "/public/static/assets/manifest/512.png",
@@ -24,6 +27,5 @@
             "type": "image/png",
             "description": "A screenshot of the home page"
         }
-    ],
-    "prefer_related_applications": "false"
+    ]
 }
