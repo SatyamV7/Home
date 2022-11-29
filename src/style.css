@@ -73,7 +73,7 @@ body {
 /*Search Box*/
 .searchbox {
     margin-top: 7.8125%;
-    padding: 20px
+    padding: 1.042%
 }
 
 .A8SBwf {
@@ -93,9 +93,6 @@ body {
     border: 1px solid #dfe1e5;
     box-shadow: none;
     border-radius: 24px;
-    margin: 0 auto;
-    width: 638px;
-    width: auto;
     max-width: 584px;
 }
 
