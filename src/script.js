@@ -9,10 +9,10 @@ let background = "#0e0e0e";
 //    clockPos();
 //}
 
-function clockPos() {
-    const clockEl = document.querySelector('.date-time');
-    clockEl.style.left = window.innerWidth / 2 - clockEl.clientWidth / 2 + "px";
-}
+//function clockPos() {
+//    const clockEl = document.querySelector('.date-time');
+//    clockEl.style.left = window.innerWidth / 2 - clockEl.clientWidth / 2 + "px";
+//}
 
 function UpdateClock() {
     let timeEl = document.getElementById('clock');
