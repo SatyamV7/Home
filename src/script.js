@@ -5,14 +5,8 @@ let noDate = false;
 let ddmmyy = true;
 const dayArr = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 let background = "#0e0e0e";
-//window.onresize = () => {
-//    clockPos();
-//}
 
-//function clockPos() {
-//    const clockEl = document.querySelector('.date-time');
-//    clockEl.style.left = window.innerWidth / 2 - clockEl.clientWidth / 2 + "px";
-//}
+document.addEventListener('contextmenu', event => event.preventDefault());
 
 function UpdateClock() {
     let timeEl = document.getElementById('clock');
@@ -42,7 +36,6 @@ function UpdateClock() {
     setTimeout(UpdateClock, 1);
 }
 UpdateClock();
-//clockPos();
 
 function Listener(name, val) {
     switch (name) {

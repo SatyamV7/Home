@@ -2,16 +2,28 @@
     "name": "Home",
     "short_name": "Home",
     "start_url": "/",
+    "scope": "/",
     "display": "standalone",
-    "description": "blah blah blah",
+    "description": "One stop for all your productivity",
     "lang": "en",
     "dir": "auto",
-    "theme_color": "#FFFFFF",
-    "background_color": "#FFFFFF",
+    "theme_color": "#3b3b3b",
+    "background_color": "#3b3b3b",
     "orientation": "any",
     "related_applications": [],
     "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
     "prefer_related_applications": false,
+    "display_override": [
+        "standalone"
+      ],
+    "features": [
+        "Cross Platform",
+        "fast",
+        "simple"
+      ],
+      "categories": [
+        "productivity"
+      ],
     "icons": [
         {
             "src": "/public/static/assets/manifest/512.png",
