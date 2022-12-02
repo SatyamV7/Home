@@ -7,9 +7,6 @@
 const PRECACHE = 'Static_Cache v7.5.3';
 const RUNTIME = 'Dynamic_Cache v7.5.3';
 
-// TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
-const offlineFallbackPage = "/Fallback/fallback.html";
-
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
     '/',
