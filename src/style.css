@@ -39,7 +39,7 @@ body {
     height: 100%;
     overflow: hidden;
     position: absolute;
-    background-image: url(/public/static/assets/wallpaper/dylan-malval_sea-min.webp);
+    background-image: url(/public/static/assets/wallpaper/spencer-moore_fern-min.webp);
     background-size: cover !important;
 }
 
@@ -55,6 +55,7 @@ body {
 .date-time #clock {
     font-family: 'Segoe UI', monospace;
     font-size: 3em;
+    height: 1.5em;
 }
 
 .date-time #day {
@@ -62,7 +63,7 @@ body {
     font-size: 5em;
     line-height: 0.5em;
     transform: rotate(-4deg);
-    height: 0.7em;
+    height: 0.65em;
 }
 
 .date-time #date {
@@ -70,10 +71,36 @@ body {
     font-size: 3em;
 }
 
+@media (max-width: 430px) {
+    .date-time {
+        margin-top: 20%;
+        max-width: calc(100% - 1%);
+    }
+
+    .date-time #clock {
+        font-size: 2.25em;
+    }
+
+    .date-time #day {
+        font-size: 4em;
+    }
+
+    .date-time #date {
+        font-size: 2.25em;
+    }
+
+    .searchbox,
+    .A8SBwf,
+    .SDkEP,
+    .RNNXgb {
+        max-width: 340px;
+    }
+}
+
 /*Search Box*/
 .searchbox {
-    margin-top: 7.8125%;
-    padding: 1.042%
+    padding: 1.042%;
+    margin: 7.8125% auto 0% auto;
 }
 
 .A8SBwf {
