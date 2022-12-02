@@ -4,7 +4,6 @@ let _12hour = false;
 let noDate = false;
 let ddmmyy = true;
 const dayArr = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-let background = "#0e0e0e";
 
 document.addEventListener('contextmenu', event => event.preventDefault());
 
@@ -25,13 +24,13 @@ function UpdateClock() {
     }
     let d = new Date();
     if (_12hour)
+        timeEl.innerHTML = `${new Intl.DateTimeFormat('en-GB', { 'hour': '2-digit', 'minute': '2-digit', 'hour12': false }).format(d)}`.replace("AM", '').replace("PM", '');
+    else
         timeEl.innerHTML = `${new Intl.DateTimeFormat('en-US', { 'hour': '2-digit', 'minute': '2-digit', 'hour12': false }).format(d)}`.replace("AM", '').replace("PM", '');
-    else
-        timeEl.innerHTML = `${new Intl.DateTimeFormat('en-US', { 'hour': '2-digit', 'minute': '2-digit', 'hour12': false }).format(d)}`;
     if (ddmmyy)
-        dateEl.innerText = `${new Intl.DateTimeFormat('en-GB', { 'day': '2-digit', 'month': 'long', 'year': 'numeric' }).format(d).replace(',', '')}`;
+        dateEl.innerText = `${new Intl.DateTimeFormat('en-GB', { 'day': '2-digit', 'month': 'long', 'year': 'numeric' }).format(d).replace(',', ',')}`;
     else
-        dateEl.innerText = `${new Intl.DateTimeFormat('en-US', { 'day': '2-digit', 'month': '2-digit', 'year': '2-digit' }).format(d).replace(',', '')}`;
+        dateEl.innerText = `${new Intl.DateTimeFormat('en-US', { 'day': '2-digit', 'month': '2-digit', 'year': '2-digit' }).format(d).replace(',', ',')}`;
     dayEl.innerText = dayArr[d.getDay()];
     setTimeout(UpdateClock, 1);
 }
