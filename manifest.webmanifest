@@ -15,15 +15,29 @@
     "prefer_related_applications": false,
     "display_override": [
         "standalone"
-      ],
+    ],
     "features": [
         "Cross Platform",
         "fast",
         "simple"
-      ],
-      "categories": [
+    ],
+    "categories": [
         "productivity"
-      ],
+    ],
+    "shortcuts": [
+        {
+            "name": "Home",
+            "url": "/",
+            "icons": [
+                {
+                    "src": "/public/static/assets/manifest/512.png",
+                    "sizes": "512x512",
+                    "type": "image/png"
+                }
+            ],
+            "description": "Home"
+        }
+    ],
     "icons": [
         {
             "src": "/public/static/assets/manifest/512.png",
