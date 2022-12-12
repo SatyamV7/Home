@@ -4,7 +4,7 @@
     font-weight: 400;
     font-style: normal;
     font-display: swap;
-    src: url('../public/static/assets/fonts/Dancing/DancingScript-Regular.otf');
+    src: url('/public/static/assets/fonts/Dancing/DancingScript-Regular.otf');
 }
 
 @font-face {
@@ -12,7 +12,7 @@
     font-weight: 400;
     font-display: swap;
     font-style: normal;
-    src: url('../public/static/assets/fonts/Segoe UI/Segoe UI-Regular.ttf');
+    src: url('/public/static/assets/fonts/Segoe UI/Segoe UI-Regular.ttf');
 }
 
 @font-face {
@@ -20,5 +20,5 @@
     font-weight: 300;
     font-display: swap;
     font-style: normal;
-    src: url('../public/static/assets/fonts/Lexend/Lexend-Light.ttf');
+    src: url('/public/static/assets/fonts/Lexend/Lexend-Light.ttf');
 }
