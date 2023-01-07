@@ -6,6 +6,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="/src/style.css">
     <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="msapplication-TileColor" content="#3b3b3b">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -64,20 +65,20 @@
             </div>
         </form>
     </div>
-</body>
-<script src="/src/script.js"></script>
-<script>
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function () {
-            navigator.serviceWorker.register('serviceworker.js').then(function (registration) {
-                // Registration was successful
-                console.log('ServiceWorker registration successful with scope: ', registration.scope);
-            }, function (err) {
-                // registration failed :(
-                console.log('ServiceWorker registration failed: ', err);
+    <script src="/src/script.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('serviceworker.js').then(function (registration) {
+                    // Registration was successful
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function (err) {
+                    // registration failed :(
+                    console.log('ServiceWorker registration failed: ', err);
+                });
             });
-        });
-    }
-</script>
+        }
+    </script>
+</body>
 
 </html>

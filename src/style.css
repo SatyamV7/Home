@@ -50,6 +50,22 @@ body {
     font-size: 3em;
 }
 
+@media (prefers-color-scheme: light) {
+
+    .RNNXgb:hover,
+    .RNNXgb {
+        background-color: #ffffff!important;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+
+    .RNNXgb:hover,
+    .RNNXgb {
+        background-color: #202124!important;
+    }
+}
+
 @media (max-width: 430px) {
     .date-time {
         margin-top: 20%;
