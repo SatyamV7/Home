@@ -54,7 +54,11 @@ body {
 
     .RNNXgb:hover,
     .RNNXgb {
-        background-color: #ffffff!important;
+        background-color: #ffffff !important;
+    }
+
+    .gLFyf {
+        color: rgba(0, 0, 0, .87) !important;
     }
 }
 
@@ -62,7 +66,11 @@ body {
 
     .RNNXgb:hover,
     .RNNXgb {
-        background-color: #202124!important;
+        background-color: #202124 !important;
+    }
+
+    .gLFyf {
+        color: rgb(154, 160, 166) !important;
     }
 }
 
@@ -182,19 +190,14 @@ body {
     border: none;
     margin: 0;
     padding: 0;
-    color: rgba(0, 0, 0, .87);
     word-wrap: break-word;
     outline: none;
     display: flex;
     flex: 100%;
     -webkit-tap-highlight-color: transparent;
-    margin-top: -37px;
+    margin-top: -35px;
     height: 34px;
     font-size: 16px;
-}
-
-.gLFyf {
-    margin-top: -35px;
 }
 
 .a4bIc {
