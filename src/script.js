@@ -34,6 +34,7 @@ function UpdateClock() {
     dayEl.innerText = dayArr[d.getDay()];
     setTimeout(UpdateClock, 1);
 }
+
 UpdateClock();
 
 function Listener(name, val) {
