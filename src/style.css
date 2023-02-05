@@ -16,10 +16,33 @@ body {
     height: 100%;
     overflow: hidden;
     position: absolute;
-    background-image: url(/public/static/assets/wallpaper/spencer-moore_fern-min.webp);
+    animation: background 30s ease-in-out infinite alternate-reverse forwards;
+    animation-play-state: running;
     background-size: cover !important;
     -webkit-user-select: none;
     user-select: none;
+    transition: 5s;
+}
+
+@keyframes background {
+    0% {
+        background-image: url(/public/static/assets/wallpaper/geran-de-klerk_trees-min.webp);
+    }
+
+    25% {
+        background-image: url(/public/static/assets/wallpaper/corwin-prescott_beach-min.webp);
+    }
+
+    50% {
+        background-image: url(/public/static/assets/wallpaper/spencer-moore_desert-min.webp);
+    }
+
+    75% {
+        background-image: url(/public/static/assets/wallpaper/spencer-moore_fern-min.webp);
+    }
+    100% {
+        background-image: url(/public/static/assets/wallpaper/satyam-verma_conifer-dawn-daylight-evergreen-min.jpg);
+    }
 }
 
 /*Date& Time*/
@@ -28,6 +51,11 @@ body {
     font-weight: 400;
     text-align: center;
     color: #d3c012;
+    /*background: -webkit-linear-gradient(-4deg, #eee, #333);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;*/
     filter: brightness(150%);
 }
 
