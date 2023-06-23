@@ -1,3 +1,9 @@
+//Splash Screen
+setTimeout(function () {
+    document.querySelector("#splash-screen").style.display = "none";
+    document.querySelector("#main").style.display = "block";
+}, 3000);
+
 //Date & Time
 let noClock = false;
 let _12hour = false;
